@@ -1,1 +1,152 @@
 
+animal_list = list()
+
+savanna = list()
+savanna_mammal = ['Aardvark','African Elephant','African Wild Dog','African Lion','Babboon','Black Rhino','Cougar','Kangaroo','Giraffe','Hippo','Howler Monkey','Impala','Leopard','Mandrill','Meerkat','Mongoose','Pronghorn','Thompsons gazelle','Warthog','Zebra']
+savanna.append(savanna_mammal)
+savanna_repitle = ['African Spurred Tortoise','Aldabra Tortoise','Blue-tongue Skink','Komodo Dragon','Dumeril Ground Boa','Frilled Lizard','Hog-Nosed Viper','Louisiana Pine Snake','Madagascar Ground Boa']
+savanna.append(savanna_repitle)
+savanna_bird = ['Harris Hawk','Bateleur Eagle','Redtailed Hawk','Great Horned Owl','Scarlet Macaw','Toco Toucan','Bufflehead','Abyssinian Ground Hornbill']
+savanna.append(savanna_bird)
+savanna_amphibian = ['African Bullfrog']
+savanna.append(savanna_amphibian)
+animal_list.append(savanna)
+
+grassland = list()
+grassland_mammal = ['Aardvark','African Elephant','African Wild Dog','Armadillo','Asian Elephant','Black Bear','Black Rhino','Cheetah','Cottontail Rabbit','Coyote','Kangaroo','Fox','Groundhog','Hedgehog','Horse','Indian Rhino','Impala','Jaguar','Leopard','Meerkat','Mongoose','Mountain Lion','Opposum','Porcupine','Prarie Dog','Prarie Dog','Racoon','Ring-tailed Lemur','Skunk','Bighorn Sheep','Thompsons Gazelle','Wildabeast','Zebra']
+grassland.append(grassland_mammal)
+grassland_reptile = ['Spotted Pond Turtle','Beaded Lizard','Blue-tongued Skink','Shingleback Skink','Baja Speckled Rattlesnake','Black Mamba','Black Milk Snake','California King Snake','King Cobra','Gray-Banded King Snake','Green Mamba','Hognosed Viper','Louisiana Pine Snake','Texas Lyre Snake','Western Diamondback']
+grassland.append(grassland_reptile)
+grassland_bird = ['Harris Hawk','Northern Harrier','Redtailed Hawk','Aplomado Falcon','Burrowing Owl','Barn Owl','Great Horned Owl','Hyacinth Macaw','Bufflehead','Demoiselle Crane','Kori Bustard','Abyssinian Ground Hornbill','Roadrunner','Azure-Winged Magpie']
+grassland.append(grassland_bird)
+grassland_amphibian = ['Agentine Leaf Frog','African Bullfrog']
+grassland.append(grassland_amphibian)
+animal_list.append(grassland)
+
+tundra = list()
+tundra_mammal = ['Arctic Fox','Arctic Hare','Bobcat','Cougar','Elk','Lynx','Moose','Porcupine']
+tundra.append(tundra_mammal)
+tundra_reptile = ['American Alligator','Diamond Python']
+tundra.append(tundra_reptile)
+tundra_bird = ['Northern Harrier','Redtailed Hawk','Great Horned Owl','Bufflehead','Andean Condor']
+tundra.append(tundra_bird)
+tundra_amphibian = ['Crocodile Salamander']
+tundra.append(tundra_amphibian)
+animal_list.append(tundra)
+
+desert = list()
+desert_mammal = ['Aardvark','Armadillo','Camel','Bobcat','Cheetah','Coyote','Hedgehog','Horse','Llama','Meerkat','Mongoose','Porcupine','Pronghorn','Bighorn Sheep','Thompsons Gazelle','Wallaby','Wildabeast','Zebra']
+desert.append(desert_mammal)
+desert_reptile = ['Desert Monitor','Gillamonster','Spiny-Tailed Lizard','Baja Speckled Rattlesnake','Black Mamba','Desert Horned Viper','Graybanded King Snake','Green Mamba','Hognosed Viper','King Cobra','Longnosed Snake','Manyhorned Viper','Trans-Pecos Copperhead']
+desert.append(desert_reptile)
+desert_bird = ['Harris Hawk','Redtailed Hawk','Aplomado Falcon','Barn Owl','Great Horned Owl','Bufflehead','Demoiselle Crane','Inca Dove','White-Winged Dove']
+desert.append(desert_bird)
+desert_amphibian = ['Desert Rain Frog']
+desert.append(desert_amphibian)
+animal_list.append(desert)
+
+deciduous_forest = list()
+deciduous_forest_mammal = ['Aye-Aye','Beaver','Black Bear','Bobcat','Brown Bear','Chimpanzee','Chipmunk','Wombat','Cottontail Rabbit','Cougar','Dingo','Elk','Fossa','Fox','Giant River Otter','Gibbon','Golden Lion Tamarin','Groundhog','Hedgehog','Horse','Indian Rhino','Koala','Lynx','Moose','Mountain Lion','North American River Otter','Opposum','Platypus','Porcupine','Prarie Dog','Pronghorn','Racoon','Red Panda','Skunk','Tasmanian Devil','Wallaby']
+deciduous_forest.append(deciduous_forest_mammal)
+deciduous_forest_reptile = ['American Alligator','Dwarf Caiman','Dwarf Crocodile','Gharial','Philippine Crocodile','African Spurred Tortoise','Aldabra tortoise','Alligator Snapper','Central American River Turtle','Fly River Turtle','Hawksbill Sea Turtle','Matamata Turtle','Pancake Tortoise','Spotted Pond Turtle','Beaded Lizard','Caiman Lizard','Cuban False Chameleon','Frilled Lizart','Henkels Leaf Tailed Gecko','Komodo Dragon','Madagascar Day Gecko','Rhinoceros Iguana','Texas Horned Lizard','Banded Rock Rattlesnake','Black-headed Python','Blood Python','King Cobra','Madagascar Ground Boa','Mexican Tiger Rat Snake','Northwest Neotropical Rattlesnake','Tentacled Snake','Western Diamondback']
+deciduous_forest.append(deciduous_forest_reptile)
+deciduous_forest_bird = ['Crowned Eagle','Northern Harrier','Bateleur Eagle','Bald Eagle','Japanese Mountain Hawk Eagle','Redtailed Hawk','Barn Owl','Great Horned Owl','Hyacinth Macaw','Military Macaw','Bufflehead','Laughing Gull','Brown Pelican','Blacknecked Swan','Black Swan,','Roseate Spoonbill','Snowy Egret','Boat Billed Heron','Chilean Flamingo','American Flamingo','Lesser Flamingo','White Pelican','Wattled Crane','Sandhill Crane','Red Crowned Crane','Kookaburra','Abyssinian Ground Hornbill','Roadrunner','Yellow-Billed Stork','Andean Condor','Saddleback Stork','Crowned Pigeon','White-Winged Dove','Magpie Jay','Azure-Winged Magpie','Argus Pheasant','Himalayan Monal']
+deciduous_forest.append(deciduous_forest_bird)
+deciduous_forest_amphibian = ['Madagascar Tomato Frog','African Bullfrog','Crocodile Salamander','Black Spotted Newt']
+deciduous_forest.append(deciduous_forest_amphibian)
+animal_list.append(deciduous_forest)
+
+rainforest = list()
+rainforest_mammal = ['Armadillo','Asian Elephant','Aye-Aye','Babboon','Beaver','Bengal Tiger','Chimpanzee','Clouded Leopard','Cougar','Kangaroo','Giant River Otter','Gibbon','Golden Lion Tamarin','Hippo','Horse','Leopard','Howler Monkey','Mandrill','Jaguar','Koala','Mountain Gorilla','Ocelot','Orangutan','Platypus','Racoon','Red Panda','Ring-tailed Lemur','Spider Monkey','Sun Bear','Tapir','Tasmanian Devil','Two-Toed Sloth','Three-Toed Sloth']
+rainforest.append(rainforest_mammal)
+rainforest_reptile = ['American Alligator','Dwarf Caiman','Gharial','Philippine Crocodile','Central American River Turtle','Fly River Turtle','Hawksbill Sea Turtle','Matamata Turtle','Pancake Tortoise','Spotted Pond Turtle','Giant Leaf-tailed Gecko','Green Iguana','Henkels Leaf-Tailed Gecko','Komodo Dragon','Oustalets Chameleon','Panther Chameleon','Parsons Chameleon','Solomon Island Skink','Standings Day Gecko','Banded Rock Rattlesnake','Black Mamba','Blood Python','Boelens Python','Burmese Python','Coral Snake','Eyelash Viper','Gaboon Viper','Green Mamba','Green Tree Python','Rhinoceros Viper','Tentacled Snake','Waglers Pit Viper']
+rainforest.append(rainforest_reptile)
+rainforest_bird = ['Harpy Eagle','Redtailed Hawk','Great Horned Owl','Spectacled Owl','Hyacinth Macaw','Scarlet Macaw','Military Macaw','Toco Toucan','Keel-Billed Toucan','Bufflehead','Silver Bahama Pintail','Laughing Gull','Brown Pelican','Blacknecked Swan','Black Swan','Scarlet Ibis','Roseate Spoonbill','Snowy Egret','Boat Billed Heron','Chilean Flamingo','American Flamingo','Lesser Flamingo','White Pelican','Wattled Crane','Sandhill Crane','Red Crowned Crane','Yellow-Billed Stork','Saddleback Stork','King Vulture','King Vulture','African Penguin']
+rainforest.append(rainforest_bird)
+rainforest_amphibian = ['Puero Rican Crested Toad','Bells Horned Frog','Amazon Horned Frog','Poison Dart Frog','Javan Gliding Frog','Black Spotted Newt']
+rainforest.append(rainforest_amphibian)
+animal_list.append(rainforest)
+
+
+#End Lists
+#Begin Program
+
+biome = input('Please enter a biome - (S) for Savanna, (G) for Grassland, (T) for Tundra, (DF) for Deciduous Forest, (D) for Desert, (R) for Rainforest: ')
+if biome == 'S':
+    print('The following Mammals live in the savanna biome:')
+    for animal in savanna_mammal:
+        print(animal)
+    print('The following Reptiles live in the savanna biome:')
+    for animal in savanna_reptile:
+        print(animal)
+    print('The following Birds live in the savanna biome:')
+    for animal in savanna_bird:
+        print(animal)
+    print('The following Amphibians live in the savanna biome:')
+    for animal in savanna_amphibian:
+        print(animal)
+if biome == 'G':
+    print('The following Mammals live in the grassland biome:')
+    for animal in grassland_mammal:
+        print(animal)
+    print('The following Reptiles live in the grassland biome:')
+    for animal in grassland_reptile:
+        print(animal)
+    print('The following Birds live in the grassland biome:')
+    for animal in grassland_bird:
+        print(animal)
+    print('The following Amphibians live in the grassland biome:')
+    for animal in grassland_amphibian:
+        print(animal)
+if biome == 'T':
+    print('The following Mammals live in the tundra biome:')
+    for animal in tundra_mammal:
+        print(animal)
+    print('The following Reptiles live in the tundra biome:')
+    for animal in tundra_reptile:
+        print(animal)
+    print('The following Birds live in the tundra biome:')
+    for animal in tundra_bird:
+        print(animal)
+    print('The following Amphibians live in the tundra biome:')
+    for animal in tundra_amphibian:
+        print(animal)
+if biome == 'DF':
+    print('The following Mammals live in the deciduous forest biome:')
+    for animal in deciduous_forest_mammal:
+        print(animal)
+    print('The following Reptiles live in the deciduous forest biome:')
+    for animal in deciduous_forest_repitle:
+        print(animal)
+    print('The following Birds live in the deciduous forest biome:')
+    for animal in deciduous_forest_bird:
+        print(animal)
+    print('The following Amphibians live in the deciduous forest biome:')
+    for animal in deciduous_forest_amphibian:
+        print(animal)
+if biome == 'D':
+    print('The following Mammals live in the desert biome:')
+    for animal in desert_mammal:
+        print(animal)
+    print('The following Reptiles live in the desert biome:')
+    for animal in desert_reptile:
+        print(animal)
+    print('The following Birds live in the desert biome:')
+    for animal in desert_bird:
+        print(animal)
+    print('The following Amphibians live in the desert biome:')
+    for animal in desert_amphibian:
+        print(animal)
+if biome == 'R':
+    print('The following Mammals live in the rainforest biome:')
+    for animal in rainforest_mammal:
+        print(animal)
+    print('The following Reptiles live in the rainforest biome:')
+    for animal in rainforest_reptile:
+        print(animal)
+    print('The following Birds live in the rainforest biome:')
+    for animal in rainforest_bird:
+        print(animal)
+    print('The following Amphibians live in the rainforest biome:')
+    for animal in rainforest_amphibian:
+        print(animal)
